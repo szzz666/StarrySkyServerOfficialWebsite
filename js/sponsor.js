@@ -1,4 +1,3 @@
-
 new Vue({
 	el: '.zzb',
 	data: {
@@ -16,7 +15,7 @@ new Vue({
 				})
 				.catch(error => {
 					this.sponsor_datas = "请求失败";
-					setTimeout(this.getdata, 1000); // 获取失败后，五秒执行一次
+					setTimeout(this.getdata, 5000); // 获取失败后，五秒执行一次
 				});
 		}
 	}
