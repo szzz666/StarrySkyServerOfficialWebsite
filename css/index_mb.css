@@ -18,7 +18,7 @@
     color: rgba(0, 0, 0, 1);
     font-weight: bold;
     font-family: sans-serif;
-    font-size: 50px;
+    font-size: 3.125rem;
     transition: all 1s ease;
 }
 
@@ -43,7 +43,7 @@
 }
 
 .shadow {
-    box-shadow: 3px 3px 9px #888888;
+    box-shadow: 0.1875rem 0.1875rem 0.5625rem #888888;
 }
 
 /* #timeshow,
@@ -106,20 +106,19 @@ body {
 
 #darkbg {
     width: 100%;
-    height: 1245px;
+    height: 80.9375rem;
     background-color: rgba(0, 0, 0, 0);
-    margin-bottom: 25px;
 }
 
 .tips {
-    padding-top: 36px;
+    padding-top: 2.25rem;
     z-index: 5;
     position: fixed;
-    left: 0px;
+    left: 0rem;
     right: 0;
-    top: 34px;
+    top: 2.125rem;
     bottom: 0;
-    height: 300px;
+    height: 18.75rem;
     width: 100%;
     /* 鼠标穿透 */
     pointer-events: none;
@@ -132,15 +131,15 @@ body {
 }
 
 .tips .message {
-    padding: 10px;
+    padding: 0.625rem;
     background-color: rgb(255, 255, 255);
     width: fit-content;
-    height: 26px;
+    height: 1.625rem;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10px;
-    border-radius: 10px;
-    font-size: 20px;
+    margin-top: 0.625rem;
+    border-radius: 0.625rem;
+    font-size: 1.25rem;
     color: #6495ed;
     display: none;
     transition: margin-top 1s ease;
@@ -148,34 +147,34 @@ body {
 
 .title_bar {
     width: 100%;
-    height: 80px;
+    height: 5rem;
     background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 1px;
+    border-radius: 0.0625rem;
     border-bottom: 1px solid rgb(180, 180, 180);
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(0.3125rem);
     position: fixed;
-    top: 0px;
+    top: 0rem;
     z-index: 1;
     overflow: visible;
 }
 
 .title_bar .logo {
     position: absolute;
-    left: 15px;
-    top: 13px;
+    left: 0.9375rem;
+    top: 0.8125rem;
     margin: auto;
-    width: 165px;
-    height: 55px;
+    width: 10.3125rem;
+    height: 3.4375rem;
     background-color: #6495ed;
-    border-radius: 10px;
+    border-radius: 0.625rem;
 }
 
 .title_bar .logo div {
     position: absolute;
     margin: auto;
-    top: 5px;
-    left: 10px;
-    font-size: 30px;
+    top: 0.3125rem;
+    left: 0.625rem;
+    font-size: 1.875rem;
     font-weight: bold;
     color: rgb(255, 255, 255);
 }
@@ -183,32 +182,32 @@ body {
 #timeshow {
     float: right;
     text-align: center;
-    margin-top: 15px;
-    margin-right: 15px;
-    right: 100px;
-    height: 50px;
-    width: 110px;
+    margin-top: 0.9375rem;
+    margin-right: 0.9375rem;
+    right: 6.25rem;
+    height: 1.5625rem;
+    width: 6.875rem;
     background-color: rgb(255, 255, 255);
-    border-radius: 10px;
+    border-radius: 0.625rem;
     filter: brightness(1);
 }
 
 #timeshow div {
-    margin-top: 8px;
-    font-size: 16px;
-    line-height: 16px;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    line-height: 1rem;
     font-weight: bold;
 }
 
 .button3 {
     float: right;
-    margin-top: 15px;
-    margin-right: 15px;
-    right: 100px;
-    height: 50px;
-    width: 50px;
+    margin-top: 0.9375rem;
+    margin-right: 0.9375rem;
+    right: 6.25rem;
+    height: 3.125rem;
+    width: 3.125rem;
     background-color: rgb(255, 255, 255);
-    border-radius: 10px;
+    border-radius: 0.625rem;
     overflow: visible;
 }
 
@@ -217,24 +216,24 @@ body {
 }
 
 /* .button3 img {
-    margin-left: 10px;
-    margin-top: 10px;
-    width: 30px;
+    margin-left: 0.625rem;
+    margin-top: 0.625rem;
+    width: 1.875rem;
 } */
 
 .button3 svg {
-    margin-left: 10px;
-    margin-top: 10px;
+    margin-left: 0.625rem;
+    margin-top: 0.625rem;
 }
 
 .theme {
     position: relative;
-    top: 14px;
-    right: 35px;
-    width: 125px;
-    height: 125px;
+    top: 0.875rem;
+    right: 4.375rem;
+    width: 7.8125rem;
+    height: 7.8125rem;
     background-color: rgb(255, 255, 255);
-    border-radius: 10px;
+    border-radius: 0.625rem;
     font-weight: bold;
     text-align: center;
     z-index: 1;
@@ -243,10 +242,10 @@ body {
 
 .theme div {
     float: left;
-    margin-top: 10px;
-    height: 27px;
-    width: 125px;
-    font-size: 20px;
+    margin-top: 0.625rem;
+    height: 1.6875rem;
+    width: 7.8125rem;
+    font-size: 1.25rem;
     background-color: rgb(255, 255, 255);
     display: none;
 }
@@ -255,130 +254,134 @@ body {
     /* margin-left: auto;
     margin-right: auto;
     position: absolute;
-    left: 0px;
+    left: 0rem;
     right: 0;
-    margin-top: 105px;
-    margin-bottom: 25px;
+    margin-top: 6.5625rem;
+    margin-bottom: 1.5625rem;
     background-color: rgba(255, 255, 255, 0.5);
-    width: 350px;
-    height: 1125px;
-    border-radius: 20px;
-    backdrop-filter: blur(5px);
+    width: 21.875rem;
+    height: 70.3125rem;
+    border-radius: 1.25rem;
+    backdrop-filter: blur(0.3125rem);
     border: 1px solid rgba(255, 255, 255, 0.18);
     text-align: center;
     transition: width 1s ease; */
+    width: 100%;
+    height: 100%;
     background-color: rgba(255, 255, 255, 0);
 }
 
 .box1 {
-    float: left;
-    margin-top: 105px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 25px;
+    position: absolute;
+    top: 7.1875rem;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
     background-color: rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(5px);
-    width: 350px;
-    height: 520px;
-    border-radius: 10px;
+    backdrop-filter: blur(0.3125rem);
+    width: 21.875rem;
+    height: 32.5rem;
+    border-radius: 0.625rem;
     /* background-color: darkgray; */
 }
 
 .box1 img {
     float: left;
-    width: 200px;
-    border-radius: 10px;
-    margin-top: 25px;
-    margin-left: 70px;
+    width: 12.5rem;
+    border-radius: 0.625rem;
+    margin-top: 1.5625rem;
+    margin-left: 4.375rem;
     background-color: rgb(255, 255, 255);
     transition: opacity 1s ease;
 }
 
 #players_num {
     float: left;
-    height: 160px;
-    width: 200px;
-    font-size: 25px;
-    margin-top: 25px;
-    margin-left: 70px;
+    height: 10rem;
+    width: 12.5rem;
+    font-size: 1.5625rem;
+    margin-top: 1.5625rem;
+    margin-left: 4.375rem;
     background-color: rgb(255, 255, 255);
-    border-radius: 10px;
+    border-radius: 0.625rem;
     text-align: center;
     transition: opacity 1s ease;
 }
 
 #players_online {
-    font-size: 40px;
+    font-size: 2.5rem;
     color: gold;
 }
 
 .button1 {
     float: left;
     background-color: rgba(100, 148, 237, 0.8);
-    width: 150px;
-    height: 45px;
-    margin-top: 30px;
-    margin-left: 25px;
-    margin-right: 30px;
-    border-radius: 10px;
-    padding-top: 10px;
+    width: 9.375rem;
+    height: 2.8125rem;
+    margin-top: 1.875rem;
+    margin-left: 1.5625rem;
+    margin-right: 1.875rem;
+    border-radius: 0.625rem;
+    padding-top: 0.625rem;
 }
 
 .box1_1 {
     float: left;
-    margin-top: 25px;
-    margin-left: 45px;
-    width: 250px;
-    height: 55px;
+    margin-top: 1.5625rem;
+    margin-left: 2.8125rem;
+    width: 15.625rem;
+    height: 3.4375rem;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     color: rgb(81, 81, 81);
 }
 
 .box1_1 svg {
     float: left;
-    /* width: 25px; */
-    margin-left: 28px;
-    margin-right: 28px;
-    margin-top: 15px;
+    /* width: 1.5625rem; */
+    margin-left: 1.75rem;
+    margin-right: 1.75rem;
+    margin-top: 0.9375rem;
 }
 
 .box2 {
-    float: left;
-    margin-top: 25px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 25px;
+    position: absolute;
+    top: 42.8125rem;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
     background-color: rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(5px);
-    width: 350px;
-    height: 330px;
+    backdrop-filter: blur(0.3125rem);
+    width: 21.875rem;
+    height: 20.625rem;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 0.625rem;
 }
 
 .box2 iframe {
-    margin-top: 25px;
-    margin-left: 0px;
-    width: 300px;
-    height: 168.5px;
-    border-radius: 10px;
+    margin-top: 1.5625rem;
+    margin-left: 0rem;
+    width: 18.75rem;
+    height: 168.0.3125rem;
+    border-radius: 0.625rem;
 }
 
 #showip {
     box-sizing: border-box;
     color: cornflowerblue;
-    font-size: 25px;
-    width: 300px;
-    height: 80px;
-    margin-top: 25px;
+    font-size: 1.5625rem;
+    width: 18.75rem;
+    height: 5rem;
+    margin-top: 1.5625rem;
     text-align: start;
-    padding-top: 10px;
-    padding-left: 10px;
-    margin-left: 25px;
+    padding-top: 0.3125rem;
+    padding-left: 0.625rem;
+    margin-left: 1.5625rem;
     cursor: text;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 0.625rem;
 
     -webkit-user-select: text;
     /* Safari */
@@ -391,8 +394,8 @@ body {
 
 #showip svg {
     position: absolute;
-    margin-left: 80px;
-    /* margin-bottom: 50px; */
+    margin-left: 6.25rem;
+    /* margin-bottom: 3.125rem; */
 }
 
 .box3 {
@@ -400,7 +403,7 @@ body {
     margin: 0;
     background-color: rgba(255, 255, 255, 0);
     width: 100%;
-    /* height: 1000px; */
+    /* height: 62.5rem; */
 }
 
 .app {
@@ -412,45 +415,46 @@ body {
     box-sizing: border-box;
     float: left;
     background-color: rgba(100, 148, 237, 0.8);
-    width: 95px;
-    height: 50px;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    border-radius: 10px;
-    padding-top: 10px;
+    width: 5.9375rem;
+    height: 3.125rem;
+    margin-top: 0.625rem;
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
+    border-radius: 0.625rem;
+    padding-top: 0.625rem;
     text-align: center;
-    font-size: 25px;
+    font-size: 1.5625rem;
 }
 
 .scroll_bar {
-    height: 190px;
-    float: left;
-    margin-top: 25px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 25px;
-    width: 350px;
+    position: absolute;
+    top: 66.5625rem;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 11.875rem;
+    width: 21.875rem;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     text-align: center;
     overflow: hidden;
-    border-radius: 10px;
+    border-radius: 0.625rem;
 }
 
 
 .masking {
     margin: auto;
     position: fixed;
-    left: 0px;
+    left: 0rem;
     right: 0;
-    top: 0px;
+    top: 0rem;
     bottom: 0;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 4;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(0.3125rem);
     transition: backdrop-filter 1s ease;
     display: none;
 }
@@ -458,14 +462,14 @@ body {
 .popup {
     margin: auto;
     position: absolute;
-    left: 0px;
+    left: 0rem;
     right: 0;
-    top: 0px;
-    bottom: -1200px;
+    top: 0rem;
+    bottom: -75rem;
     background-color: rgba(255, 255, 255, 1);
-    width: 115px;
-    height: 65px;
-    border-radius: 20px;
+    width: 7.1875rem;
+    height: 4.0625rem;
+    border-radius: 1.25rem;
     border: 1px solid rgba(255, 255, 255, 0.18);
     transition: all 1s ease;
     z-index: 4;
@@ -473,54 +477,54 @@ body {
 
 .popup svg {
     position: absolute;
-    right: 10px;
-    top: 10px;
+    right: 0.625rem;
+    top: 0.625rem;
 }
 
 #fwqcx {
     position: absolute;
-    top: 50px;
-    left: 25px;
+    top: 3.125rem;
+    left: 1.5625rem;
     display: none;
 }
 
 .zt {
     float: left;
-    margin: 10px;
-    padding: 10px;
+    margin: 0.625rem;
+    padding: 0.625rem;
     background-color: #6495ed;
-    border-radius: 10px;
-    font-size: 20px;
+    border-radius: 0.625rem;
+    font-size: 1.25rem;
 }
 
 .zzb {
     position: absolute;
-    top: 50px;
-    left: 0px;
+    top: 3.125rem;
+    left: 0rem;
     display: none;
 }
 
 .zzb ol {
     float: left;
-    margin: 10px;
-    padding: 10px;
+    margin: 0.625rem;
+    padding: 0.625rem;
     background-color: #6495ed;
-    border-radius: 10px;
-    font-size: 12px;
+    border-radius: 0.625rem;
+    font-size: 0.75rem;
     overflow: auto;
-    height: 400px;
+    height: 25rem;
 }
 
 .zzb h2 {
-    margin-left: 10px;
+    margin-left: 0.625rem;
     color: #00aeec;
-    font-size: 15px;
+    font-size: 0.9375rem;
 }
 
 .zzb img {
     float: left;
-    margin: 10px;
-    width: 150px;
+    margin: 0.625rem;
+    width: 9.375rem;
 }
 
 .useiframe {
@@ -528,5 +532,5 @@ body {
 }
 
 .useiframe iframe {
-    margin-top: 50px;
+    margin-top: 3.125rem;
 }
