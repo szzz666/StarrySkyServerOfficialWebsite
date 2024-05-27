@@ -49,22 +49,63 @@ $(".themeset").click(function () {
     $(this).find('div').fadeToggle(200, 'swing');
 });
 //隐藏显示按钮
-var concise = true;
-$(".concise").click(function () {
-    if (concise) {
-        $('.box2, .box3').fadeOut(1000);
-        setTimeout(function () {
-            $(".mian").css("width", "300px");
-        }, 1000)
-        concise = !concise;
-    } else {
-        $(".mian").css("width", "1500px");
-        setTimeout(function () {
-            $('.box2, .box3').fadeIn(1000);
-        }, 1000)
-        concise = !concise;
-    }
-});
+var concise = 1;
+if (isMobile) {
+    $(".concise").click(function () {
+        if (concise == 1) {
+            $(".box1").css({
+                "background-color": "rgba(255, 255, 255, 0)",
+                "border-color": "rgba(255, 255, 255, 0)",
+                "backdrop-filter": "blur(0px)"
+            });
+            $(".box1 img, #players_num").css("opacity", "0");
+            $(".box1_1").css("visibility", "visible");
+            concise++;
+        } else {
+            $(".box1").css({
+                "background-color": "rgba(255, 255, 255, 0.5)",
+                "border-color": "rgba(255, 255, 255, 0.18)",
+                "backdrop-filter": "blur(5px)"
+            });
+            changetheme();
+            $(".box1 img, #players_num").css("opacity", "1");
+            concise = 1;
+        }
+    });
+} else {
+    $(".concise").click(function () {
+        if (concise == 1) {
+            $('.box2, .box3').fadeOut(1000);
+            setTimeout(function () {
+                $(".mian").css("width", "300px");
+            }, 1000)
+            concise++;
+        }
+        else if (concise == 2) {
+            $(".mian").css({
+                "background-color": "rgba(255, 255, 255, 0)",
+                "border-color": "rgba(255, 255, 255, 0)",
+                "backdrop-filter": "blur(0px)"
+            });
+            $(".box1 img, #players_num").css("opacity", "0");
+            $(".box1_1").css("visibility", "visible");
+            concise++;
+        } else {
+            $(".mian").css({
+                "border-color": "rgba(255, 255, 255, 0.18)",
+                "backdrop-filter": "blur(5px)"
+            });
+            changetheme();
+            $(".box1 img, #players_num").css("opacity", "1");
+            $(".mian").css("width", "1500px");
+            setTimeout(function () {
+                $('.box2, .box3').fadeIn(1000);
+            }, 1000)
+            concise = 1;
+        }
+    });
+}
+
 //加入游戏
 $(".jiaruyouxi").click(function () {
     window.open("minecraft://?addExternalServer=§l§5星空服|mc.szzz666.top:19132");
