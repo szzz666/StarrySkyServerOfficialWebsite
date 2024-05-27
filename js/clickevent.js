@@ -1,14 +1,14 @@
 //复制
 function copy(textToCopy) {
     navigator.clipboard.writeText(textToCopy)
-        。then(function () {
+        .then(function () {
             tipsmessage("已经复制");
         }, function (err) {
             tipsmessage("复制失败，请检查浏览器是否支持该功能");
         });
 }
 
-$("#showip svg")。click(function () {
+$("#showip svg").click(function () {
     copy("IP：mc.szzz666.top 端口：19132");
 });
 
@@ -25,19 +25,19 @@ function roud() {
     $('body').append(newScript);
 }
 //主题切换
-$(".t2")。click(function () {
+$(".t2").click(function () {
     localStorage.setItem("thememode", 2);
     // location.reload();
     roud();
     $(this).css("color", subjectcolor);
 });
-$(".t1")。click(function () {
+$(".t1").click(function () {
     localStorage.setItem("thememode", 1);
     roud();
     // location.reload();
     $(this).css("color", subjectcolor);
 });
-$(".t0")。click(function () {
+$(".t0").click(function () {
     localStorage.setItem("thememode", 0);
     roud();
     // location.reload();
@@ -45,12 +45,12 @@ $(".t0")。click(function () {
 });
 
 //主题按钮动画
-$(".themeset")。click(function () {
+$(".themeset").click(function () {
     $(this).find('div').fadeToggle(200, 'swing');
 });
 //隐藏显示按钮
 var concise = true;
-$(".concise")。click(function () {
+$(".concise").click(function () {
     if (concise) {
         $('.box2, .box3').fadeOut(1000);
         setTimeout(function () {
@@ -66,7 +66,7 @@ $(".concise")。click(function () {
     }
 });
 //加入游戏
-$(".jiaruyouxi")。click(function () {
+$(".jiaruyouxi").click(function () {
     window.open("minecraft://?addExternalServer=§l§5星空服|mc.szzz666.top:19132");
 });
 //关闭窗口
@@ -78,42 +78,42 @@ $(".popup").click(function (event) {
     event.stopPropagation();
 });
 //服务器状态
-$(".zhuangtai")。click(function () {
+$(".zhuangtai").click(function () {
     openwin()
     $("#fwqcx").fadeIn(250);
 });
 //赞助
-$(".zangzhu")。click(function () {
+$(".zangzhu").click(function () {
     openwin()
     $(".zzb").fadeIn(250);
 });
 //useiframe
-$(".download, .fankui, .pindao, .qqqun")。click(function () {
+$(".download, .fankui, .pindao, .qqqun").click(function () {
     openwin()
     $(".useiframe").fadeIn(250);
 });
 //下载
-$(".download")。click(function () {
+$(".download").click(function () {
     $(".useiframe iframe").attr("src", "https://mc.minebbs.com/#/");
 });
 //反馈
-$(".fankui")。click(function () {
+$(".fankui").click(function () {
     $(".useiframe iframe").attr("src", "https://www.wenjuan.com/s/UZBZJvqQRqb/");
 });
 //频道
-$(".pindao")。click(function () {
+$(".pindao").click(function () {
     $(".useiframe iframe").attr("src", "https://pd.qq.com/s/d88deyhxs");
     // window.open("https://pd.qq.com/s/d88deyhxs");
 });
 //QQ群
-$(".qqqun")。click(function () {
+$(".qqqun").click(function () {
     $(".useiframe iframe").attr("src", "https://qm.qq.com/q/JakcxpXi4E");
 });
 //分享
-$(".fenxiang")。click(function () {
+$(".fenxiang").click(function () {
     tipsmessage("等待开发，敬请期待");
 });
 //聊天
-$(".liaotian")。click(function () {
+$(".liaotian").click(function () {
     tipsmessage("等待开发，敬请期待");
 });
