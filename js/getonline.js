@@ -43,7 +43,7 @@ new Vue({
         getdata() {
             axios.get("https://api.mcstatus.io/v2/status/bedrock/mc.szzz666.top")
                 .then(result => {
-                    this.motd = result.data.motd.html;
+                    this.motd = result.data.motd.html.split("\n")[0];
                     this.online = result.data.online;
                     this.players_online = result.data.players.online;
                     this.players_max = result.data.players.max;
@@ -58,7 +58,7 @@ new Vue({
         getdata2() {
             axios.get("https://api.mcstatus.io/v2/status/bedrock/mc.szzz666.top:19134")
                 .then(result => {
-                    this.motd2 = result.data.motd.html;
+                    this.motd2 = result.data.motd.html.split("\n")[0];
                     this.online2 = result.data.online;
                     this.players_online2 = result.data.players.online;
                     this.players_max2 = result.data.players.max;
