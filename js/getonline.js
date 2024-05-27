@@ -11,11 +11,11 @@ new Vue({
             axios.get("https://api.mcstatus.io/v2/status/bedrock/mc.szzz666.top")
                 .then(result => {
                     this.online = result.data.players.online;
-                    setTimeout(this.getonline, 60000); // 获取成功后，一分钟执行一次
+                    setTimeout(this.getonline, 10000); // 获取成功后，一分钟执行一次
                 })
                 .catch(error => {
                     this.online = "...";
-                    setTimeout(this.getonline, 5000); // 获取失败后，五秒执行一次
+                    setTimeout(this.getonline, 1000); // 获取失败后，五秒执行一次
                 });
         }
     }
@@ -48,11 +48,11 @@ new Vue({
                     this.players_online = result.data.players.online;
                     this.players_max = result.data.players.max;
                     this.version = result.data.version.name;
-                    setTimeout(this.getdata, 60000); // 获取成功后，一分钟执行一次
+                    setTimeout(this.getdata, 10000); // 获取成功后，一分钟执行一次
                 })
                 .catch(error => {
                     this.online = false;
-                    setTimeout(this.getdata, 5000); // 获取失败后，五秒执行一次
+                    setTimeout(this.getdata, 1000); // 获取失败后，五秒执行一次
                 });
         },
         getdata2() {
@@ -63,11 +63,11 @@ new Vue({
                     this.players_online2 = result.data.players.online;
                     this.players_max2 = result.data.players.max;
                     this.version2 = result.data.version.name;
-                    setTimeout(this.getdata2, 60000); // 获取成功后，一分钟执行一次
+                    setTimeout(this.getdata2, 10000); // 获取成功后，一分钟执行一次
                 })
                 .catch(error => {
                     this.online = false;
-                    setTimeout(this.getdata2, 5000); // 获取失败后，五秒执行一次
+                    setTimeout(this.getdata2, 1000); // 获取失败后，五秒执行一次
                 });
         }
     }
