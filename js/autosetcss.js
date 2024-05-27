@@ -50,7 +50,11 @@ function setdark() {
     $(".title_bar .logo div").css("color", maxdarkbackground);
     $("#showip").css("color", subjectcolor);
     $(".mian, .title_bar, #darkbg").css("background-color", "rgba(0, 0, 0, 0.5)");
-    // $("#darkbg").css("background-color", "rgba(0, 0, 0, 0.5)");
+    if (isMobile) {
+        $(".box1, .box2").css("background-color", "rgba(0, 0, 0, 0.5)");
+        $(".mian").css("background-color", "rgba(255, 255, 255, 0)");
+    }
+
 }
 function setlight() {
     $("svg").find('path').attr('fill', lightcolor);
@@ -58,7 +62,12 @@ function setlight() {
     $("*").not(".title_bar .logo div, #showip, .zzb ol li span, .zzb h2, .motd").css("color", lightcolor);
     $(".title_bar .logo div").css("color", maxlightbackground);
     $("#showip").css("color", subjectcolor);
-    $(".mian, .title_bar").css("background-color", "rgba(255, 255, 255, 0.5)");
+    $(".title_bar").css("background-color", "rgba(255, 255, 255, 0.5)");
+    if (!isMobile)
+        $(".mian").css("background-color", "rgba(255, 255, 255, 0.5)");
+    if (isMobile) {
+        $(".box1, .box2").css("background-color", "rgba(255, 255, 255, 0.5)");
+    }
     // $("#darkbg").css("background-color", "rgba(0, 0, 0, 0)");
 }
 var thememode = localStorage.getItem("thememode");
