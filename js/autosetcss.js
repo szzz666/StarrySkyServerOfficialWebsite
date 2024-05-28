@@ -46,22 +46,23 @@ $(".button1, .button2").css("background-color", subjectcolor);
 function setdark() {
     $("svg").find('path').attr('fill', darkcolor);
     $("#timeshow, .button3, .theme, .theme div, .box1 img, #players_num, .box1_1, .scroll_bar, .popup, #showip, .message").css("background-color", maxdarkbackground);
-    $("*").not(".title_bar .logo div, #showip, .zzb ol li span, .zzb h2, .motd").css("color", darkcolor);
+    //$("*").not(".title_bar .logo div, #showip, .zzb ol li span, .zzb h2, .motd").css("color", darkcolor);
+    $(".button2, .gwjzx, #time, .theme div").css("color", darkcolor);
     $(".title_bar .logo div").css("color", maxdarkbackground);
-    $("#showip").css("color", subjectcolor);
+    //$("#showip").css("color", subjectcolor);
     $(".mian, .title_bar, #darkbg").css("background-color", "rgba(0, 0, 0, 0.5)");
     if (isMobile) {
         $(".box1, .box2").css("background-color", "rgba(0, 0, 0, 0.5)");
         $(".mian").css("background-color", "rgba(255, 255, 255, 0)");
     }
-
 }
 function setlight() {
     $("svg").find('path').attr('fill', lightcolor);
     $("#timeshow, .button3, .theme, .theme div, .box1 img, #players_num, .box1_1, .scroll_bar, .popup, #showip, .message").css("background-color", maxlightbackground);
-    $("*").not(".title_bar .logo div, #showip, .zzb ol li span, .zzb h2, .motd").css("color", lightcolor);
+    //$("*").not(".title_bar .logo div, #showip, .zzb ol li span, .zzb h2, .motd").css("color", lightcolor);
+    $(".button2, .gwjzx, #time, .theme div").css("color", lightcolor);
     $(".title_bar .logo div").css("color", maxlightbackground);
-    $("#showip").css("color", subjectcolor);
+    //$("#showip").css("color", subjectcolor);
     $(".title_bar").css("background-color", "rgba(255, 255, 255, 0.5)");
     if (!isMobile)
         $(".mian").css("background-color", "rgba(255, 255, 255, 0.5)");
