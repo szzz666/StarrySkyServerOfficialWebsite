@@ -129,7 +129,7 @@ $(".zangzhu").click(function () {
     $(".zzb").fadeIn(250);
 });
 //useiframe
-$(".download, .fankui, .pindao, .qqqun").click(function () {
+$(".download, .fankui, .pindao, .qqqun, .liaotian").click(function () {
     openwin()
     $(".useiframe").fadeIn(250);
 });
@@ -156,5 +156,5 @@ $(".fenxiang").click(function () {
 });
 //聊天
 $(".liaotian").click(function () {
-    tipsmessage("等待开发，敬请期待");
+    $(".useiframe iframe").attr("src", "http://serverchat.szzz666.top");
 });
