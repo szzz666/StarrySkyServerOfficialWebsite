@@ -156,5 +156,6 @@ $(".fenxiang").click(function () {
 });
 //聊天
 $(".liaotian").click(function () {
-    $(".useiframe iframe").attr("src", "http://serverchat.szzz666.top");
+    tipsmessage("下载App，可与服务器聊天");
+    $(".useiframe iframe").attr("src", "https://www.123pan.com/s/beZcVv-bVGsd.html");
 });
