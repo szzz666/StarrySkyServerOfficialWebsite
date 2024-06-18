@@ -42,6 +42,21 @@
     transition: background-color 1s ease;
 }
 
+.bottom {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    color: rgba(50, 50, 50, 0.5);
+}
+
+.bottom a {
+    color: rgba(50, 50, 50, 0.5);
+}
+
+.bottom a:hover {
+    color: rgba(55, 91, 255, 0.5);
+}
+
 .shadow {
     box-shadow: 0.1875rem 0.1875rem 0.5625rem #888888;
 }
@@ -364,7 +379,8 @@ body {
     margin-top: 1.5625rem;
     margin-left: 0rem;
     width: 18.75rem;
-    height: 168.0.3125rem;
+    /* height: 168.0.3125rem; */
+    height: 10.535rem;
     border-radius: 0.625rem;
 }
 

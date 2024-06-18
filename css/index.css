@@ -42,6 +42,22 @@
     transition: background-color 1s ease;
 }
 
+.bottom {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    color: rgba(50, 50, 50, 0.5);
+}
+
+.bottom a {
+    color: rgba(50, 50, 50, 0.5);
+}
+
+.bottom a:hover {
+    color: rgba(55, 91, 255, 0.5);
+}
+
+
 .shadow {
     box-shadow: 3px 3px 9px #888888;
 }

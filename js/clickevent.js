@@ -129,7 +129,7 @@ $(".zangzhu").click(function () {
     $(".zzb").fadeIn(250);
 });
 //useiframe
-$(".download, .fankui, .pindao, .qqqun, .liaotian").click(function () {
+$(".download, .fankui, .pindao, .qqqun").click(function () {
     openwin()
     $(".useiframe").fadeIn(250);
 });
