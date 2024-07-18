@@ -24,9 +24,7 @@
 				x23424 = !x23424;
 			}
 		}, 1000);
-
-		// 监听window的load事件 undefined
-		window.addEventListener('load', function () {
+		function showwy() {
 			clearInterval(z4545);
 			document.getElementById('loading1').style.color = "rgba(0, 0, 0, 0)";
 			document.getElementById('loading').style.backgroundColor = "rgba(255, 255, 255, 0)";
@@ -35,7 +33,10 @@
 				document.getElementById('loading').remove();
 				x001 = true;
 			}, 1000);
-		});
+		}
+		// 监听window的load事件 undefined
+		window.addEventListener('load', () => showwy());
+		setTimeout(showwy, 8000);
 	</script>
 </head>
 
