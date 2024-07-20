@@ -159,3 +159,7 @@ $(".liaotian").click(function () {
     tipsmessage("下载App，可与服务器聊天");
     window.open("https://www.123pan.com/s/beZcVv-bVGsd.html");
 });
+//app
+$(".app").click(function () {
+    window.open("https://www.123pan.com/s/beZcVv-bVGsd.html");
+});
