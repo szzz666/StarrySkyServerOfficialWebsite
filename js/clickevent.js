@@ -128,7 +128,7 @@ $(".zangzhu").click(function () {
     openwin()
     $(".zzb").fadeIn(250);
 });
-//useiframe
+//打开窗口
 $(".download, .fankui, .pindao, .qqqun").click(function () {
     openwin()
     $(".useiframe").fadeIn(250);
@@ -160,6 +160,6 @@ $(".liaotian").click(function () {
     window.open("https://www.123pan.com/s/beZcVv-bVGsd.html");
 });
 //app
-$(".app").click(function () {
+$(".xzapp").click(function () {
     window.open("https://www.123pan.com/s/beZcVv-bVGsd.html");
 });
