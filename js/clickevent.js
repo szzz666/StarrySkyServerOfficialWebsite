@@ -151,8 +151,8 @@ $(".qqqun").click(function () {
     $(".useiframe iframe").attr("src", "https://qm.qq.com/q/JakcxpXi4E");
 });
 //分享
-$(".fenxiang").click(function () {
-    tipsmessage("等待开发，敬请期待");
+$(".xieguan").click(function () {
+    window.open("http://mc.szzz666.top:28668/");
 });
 //聊天
 $(".liaotian").click(function () {
