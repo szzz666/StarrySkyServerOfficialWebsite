@@ -26,8 +26,10 @@
 		}, 1000);
 		function showwy() {
 			clearInterval(z4545);
-			document.getElementById('loading1').style.color = "rgba(0, 0, 0, 0)";
-			document.getElementById('loading').style.backgroundColor = "rgba(255, 255, 255, 0)";
+			var loading1 = document.getElementById('loading1');
+			var loading = document.getElementById('loading');
+			loading1.style.color = "rgba(0, 0, 0, 0)";
+			loading.style.backgroundColor = "rgba(255, 255, 255, 0)";
 			setTimeout(function () {
 				document.getElementById('loading1').remove();
 				document.getElementById('loading').remove();
@@ -35,8 +37,21 @@
 			}, 1000);
 		}
 		// 监听window的load事件 undefined
-		window.addEventListener('DOMContentLoaded', () => showwy());
-		setTimeout(showwy, 10000);
+		let executed = false;
+
+		window.addEventListener('DOMContentLoaded', () => {
+			if (!executed) {
+				showwy();
+				executed = true;
+			}
+		});
+
+		setTimeout(() => {
+			if (!executed) {
+				showwy();
+				executed = true;
+			}
+		}, 10000);
 	</script>
 </head>
 
