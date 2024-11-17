@@ -122,8 +122,9 @@ $(document).ready(function () {
     });
     //服务器状态
     $(".zhuangtai").click(function () {
-        openwin()
-        $("#fwqcx").fadeIn(250);
+        tipsmessage("下载星空服App，查看服务器状态");
+        // openwin()
+        // $("#fwqcx").fadeIn(250);
     });
     //赞助
     $(".zangzhu").click(function () {
@@ -158,8 +159,8 @@ $(document).ready(function () {
     });
     //聊天
     $(".liaotian").click(function () {
-        tipsmessage("下载App，可与服务器聊天");
-        window.open("https://www.123pan.com/s/beZcVv-bVGsd.html");
+        tipsmessage("下载星空服App，可与服务器聊天");
+        // window.open("https://www.123pan.com/s/beZcVv-bVGsd.html");
     });
     //app
     $(".xzapp").click(function () {
