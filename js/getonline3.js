@@ -11,7 +11,7 @@ new Vue({
             axios.get("https://tool.mintimate.cn/api/mcStatus?serverIP=mc.szzz666.top&serverType=BE")
                 .then(result => {
                     this.online = result.data.message.players.online;
-                    setTimeout(this.getonline, 50000); 
+                    setTimeout(this.getonline, 10000); 
                 })
                 .catch(error => {
                     this.online = "...";
