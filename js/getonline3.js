@@ -8,9 +8,9 @@ new Vue({
     },
     methods: {
         getonline() {
-            axios.get("https://api.mcstatus.io/v2/status/bedrock/mc.szzz666.top")
+            axios.get("https://tool.mintimate.cn/api/mcStatus?serverIP=mc.szzz666.top&serverType=BE")
                 .then(result => {
-                    this.online = result.data.players.online;
+                    this.online = result.data.message.players.online;
                     setTimeout(this.getonline, 5000); 
                 })
                 .catch(error => {
