@@ -4,18 +4,18 @@ new Vue({
         online: null
     },
     mounted() {
-        this.getonline(); // 首次加载先执行一次
+        this.getonline();
     },
     methods: {
         getonline() {
             axios.get("https://api.mcstatus.io/v2/status/bedrock/mc.szzz666.top")
                 .then(result => {
                     this.online = result.data.players.online;
-                    setTimeout(this.getonline, 10000); // 获取成功后，一分钟执行一次
+                    setTimeout(this.getonline, 10000);
                 })
                 .catch(error => {
                     this.online = "...";
-                    setTimeout(this.getonline, 1000); // 获取失败后，五秒执行一次
+                    setTimeout(this.getonline, 1000);
                 });
         }
     }
