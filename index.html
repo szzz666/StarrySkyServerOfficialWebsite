@@ -146,7 +146,7 @@
 						</svg>
 					</div>
 					<!-- <div id="copy_i"><img src="svg/copy.svg" alt="0"></div> -->
-					<iframe src="//player.bilibili.com/player.html?aid=924065586&bvid=BV1KT4y1b7yi&cid=1413252825&p=1"
+					<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=1856422664&bvid=BV1qW42197XN&cid=1623522029&p=1"
 						scrolling="on" frameborder="on" framespacing="0" allowfullscreen="true" id="bilibili"
 						class="shadow"></iframe>
 				</div>
@@ -219,6 +219,22 @@
 			href="https://github.com/szzz666/StarrySkyServerOfficialWebsite/">Github网站源码</a><br>网站备案：湘ICP备2023017619号
 	</div>
 </body>
+<script>
+	// 创建 audio 元素
+	var audio = document.createElement('audio');
+	audio.src = 'data/c.mp3'; // 替换为你的音频文件路径
+	audio.loop = true; // 循环播放
+	audio.volume = 0.5; // 设置音量为 50%
+	// 隐藏 audio 元素
+	audio.style.display = 'none';
+
+	// 将 audio 元素添加到页面中
+	document.body.appendChild(audio);
+
+	// 页面加载完成后自动播放音乐
+	audio.play();
+	
+</script>
 <script src="js/clickevent.js"></script>
 <script src="js/getonline3.js"></script>
 <script src="js/autosetcss.js" class="autosetcss"></script>
