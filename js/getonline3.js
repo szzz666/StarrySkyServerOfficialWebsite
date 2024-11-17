@@ -9,15 +9,12 @@ new Vue({
     },
     methods: {
         getonline() {
-            axios.get("https://tool.mintimate.cn/api/mcStatus?serverIP=mc.szzz666.top&serverType=BE")
+            axios.get("https://motdbe.blackbe.work/api?host=szzz666.x3322.net:19132")
                 .then(result => {
-                    this.online = result.data.message.players.online;
-                    setTimeout(this.getonline, 10000); 
+                    this.online = result.data.online;
+                    setTimeout(this.getonline, 5000); 
                 })
                 .catch(error => {
-                    if(c = 0){
-                        this.online = "";
-                    }
                     if(c = 1){
                         this.online = ".";
                     }
