@@ -164,6 +164,6 @@ $(document).ready(function () {
     });
     //app
     $(".xzapp").click(function () {
-        window.open("https://www.123pan.com/s/beZcVv-bVGsd.html");
+        window.open("https://github.com/szzz666/StarrySkyServerOfficialWebsite/releases/download/%E6%98%9F%E7%A9%BA%E6%9C%8Dapp/StarrySkyServer_v1.8.5.apk");
     });
 });
