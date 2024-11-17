@@ -1,3 +1,4 @@
+var c = 0;
 new Vue({
     el: '#players_num',
     data: {
@@ -14,7 +15,20 @@ new Vue({
                     setTimeout(this.getonline, 10000); 
                 })
                 .catch(error => {
-                    this.online = "...";
+                    if(c = 0){
+                        this.online = "";
+                    }
+                    if(c = 1){
+                        this.online = ".";
+                    }
+                    if(c = 2){
+                        this.online = "..";
+                    }
+                    if(c => 3){
+                        this.online = "...";
+                        c = 0;
+                    }
+                    c++;
                     setTimeout(this.getonline, 1000); 
                 });
         }
