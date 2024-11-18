@@ -225,6 +225,7 @@ body {
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     overflow: visible;
+    box-sizing: border-box;
 }
 
 /* .button3 img {

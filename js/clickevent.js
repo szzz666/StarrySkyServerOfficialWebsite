@@ -107,6 +107,21 @@ $(document).ready(function () {
         });
     }
 
+    //音乐
+    $(".music").click(function () {
+        if (audio.paused) {
+            audio.play();
+            $('.music').css('border', '2px solid #1afa29');
+            $('.music').find('svg').attr('width', 26);
+            $('.music').find('svg').attr('height', 31);
+        } else {
+            audio.pause();
+            $('.music').css('border', 'none');
+            $('.music').find('svg').attr('width', 30);
+            $('.music').find('svg').attr('height', 35);
+        }
+    });
+
     //加入游戏
     $(".jiaruyouxi").click(function () {
         tipsmessage("正在添加服务器到你的游戏服务器列表内");
