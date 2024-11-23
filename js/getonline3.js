@@ -12,21 +12,11 @@ new Vue({
             axios.get("https://motdbe.blackbe.work/api?host=szzz666.x3322.net:19132")
                 .then(result => {
                     this.online = result.data.online;
-                    setTimeout(this.getonline, 5000); 
+                    setTimeout(this.getonline, 10000); 
                 })
                 .catch(error => {
-                    if(c = 1){
-                        this.online = ".";
-                    }
-                    if(c = 2){
-                        this.online = "..";
-                    }
-                    if(c => 3){
                         this.online = "...";
-                        c = 0;
-                    }
-                    c++;
-                    setTimeout(this.getonline, 1000); 
+                    setTimeout(this.getonline, 2000); 
                 });
         }
     }
