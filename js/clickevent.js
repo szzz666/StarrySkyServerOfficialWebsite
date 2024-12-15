@@ -166,7 +166,7 @@ $(document).ready(function () {
     });
     //QQ群
     $(".qqqun").click(function () {
-        $(".useiframe iframe").attr("src", "https://qm.qq.com/q/JakcxpXi4E");
+        $(".useiframe iframe").attr("src", "https://qm.qq.com/q/EPKQQs7k0E");
     });
     //分享
     $(".xieguan").click(function () {
