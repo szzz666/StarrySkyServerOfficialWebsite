@@ -44,6 +44,10 @@
         "amount": 55
     },
     {
+        "name": "CrystalEl",
+        "amount": 50
+    },
+    {
         "name": "wudi11451",
         "amount": 49
     },
@@ -58,6 +62,10 @@
     {
         "name": "某不愿透露ID的玩家① ",
         "amount": 20
+    },
+    {
+        "name": "Anheijun666",
+        "amount": 17
     },
     {
         "name": "栖梦",
@@ -82,10 +90,6 @@
     {
         "name": "某表扬",
         "amount": 8.8
-    },
-    {
-        "name": "Anheijun666",
-        "amount": 8.5
     },
     {
         "name": "mutewater",
@@ -137,6 +141,10 @@
     },
     {
         "name": "utxxdi",
+        "amount": 1
+    },
+    {
+        "name": "Dead inside_",
         "amount": 1
     }
 ]
