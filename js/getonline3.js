@@ -9,14 +9,14 @@ new Vue({
     },
     methods: {
         getonline() {
-            axios.get("https://motdbe.blackbe.work/api?host=111.180.203.179:19132")
+            axios.get("https://motdbe.blackbe.work/api?host=szzz666.x3322.net:19132")
                 .then(result => {
                     this.online = result.data.online;
-                    setTimeout(this.getonline, 10000); 
+                    setTimeout(this.getonline, 10000);
                 })
                 .catch(error => {
-                        this.online = "...";
-                    setTimeout(this.getonline, 2000); 
+                    this.online = "...";
+                    setTimeout(this.getonline, 2000);
                 });
         }
     }
