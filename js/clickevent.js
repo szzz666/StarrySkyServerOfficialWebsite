@@ -174,8 +174,7 @@ $(document).ready(function () {
     });
     //聊天
     $(".liaotian").click(function () {
-        tipsmessage("下载星空服App，可与服务器聊天");
-        // window.open("https://www.123pan.com/s/beZcVv-bVGsd.html");
+        window.open("http://mc.szzz666.top:23400/public/StarrySkyLink");
     });
     //app
     $(".xzapp").click(function () {
