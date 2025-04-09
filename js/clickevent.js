@@ -168,9 +168,9 @@ $(document).ready(function () {
     $(".qqqun").click(function () {
         $(".useiframe iframe").attr("src", "https://qm.qq.com/q/EPKQQs7k0E");
     });
-    //分享
+    //协管
     $(".xieguan").click(function () {
-        window.open("http://mc.szzz666.top:28668/");
+        window.open("http://mc.szzz666.top:23400/public/Assistant");
     });
     //聊天
     $(".liaotian").click(function () {
