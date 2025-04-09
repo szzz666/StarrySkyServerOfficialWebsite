@@ -84,6 +84,10 @@
         "amount": 15
     },
     {
+        "name": "Tromious",
+        "amount": 13.2
+    },
+    {
         "name": "wukice",
         "amount": 12.5
     },
@@ -110,10 +114,6 @@
     {
         "name": "某表扬",
         "amount": 8.8
-    },
-    {
-        "name": "Tromious",
-        "amount": 6.6
     },
     {
         "name": "mutewater",
