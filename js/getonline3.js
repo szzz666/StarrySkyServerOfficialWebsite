@@ -9,7 +9,7 @@ new Vue({
     },
     methods: {
         getonline() {
-            axios.get("https://motdbe.blackbe.work/api?host=szzz666.x3322.net:20000")
+            axios.get("https://motd.imc.re/api?host=mc.szzz666.top:20000")
                 .then(result => {
                     this.online = result.data.online;
                     setTimeout(this.getonline, 10000);
