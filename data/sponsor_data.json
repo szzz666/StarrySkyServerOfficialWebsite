@@ -1,170 +1,170 @@
 [
-    {
-        "name": "小忧",
-        "amount": 666
-    },
-    {
-        "name": "꧁❦澪༒月❦꧂",
-        "amount": 432.5
-    },
-    {
-        "name": "Skydream",
-        "amount": 305.2
-    },
-    {
-        "name": "浊酒桂仙",
-        "amount": 160
-    },
-    {
-        "name": "HLYB2023",
-        "amount": 140
-    },
-    {
-        "name": "folent1764",
-        "amount": 137.8
-    },
-    {
-        "name": "pyeietywu",
-        "amount": 101
-    },
-    {
-        "name": "YILONG233",
-        "amount": 100
-    },
-    {
-        "name": "磕矮の小極",
-        "amount": 100
-    },
-    {
-        "name": "WinterCoffee176",
-        "amount": 83.4
-    },
-    {
-        "name": "NoNoiseClock",
-        "amount": 70
-    },
-    {
-        "name": "MClongqihua（龙琪华）",
-        "amount": 55
-    },
-    {
-        "name": "栖梦",
-        "amount": 54.3
-    },
-    {
-        "name": "CrystalEl",
-        "amount": 50
-    },
-    {
-        "name": "wudi11451",
-        "amount": 49
-    },
-    {
-        "name": "Anheijun666",
-        "amount": 37
-    },
-    {
-        "name": "YunXi3348",
-        "amount": 30.36
-    },
-    {
-        "name": "橘子",
-        "amount": 26
-    },
-    {
-        "name": "迁某人 ",
-        "amount": 20
-    },
-    {
-        "name": "某不愿透露ID的玩家① ",
-        "amount": 20
-    },
-    {
-        "name": "雪舞清歌",
-        "amount": 15
-    },
-    {
-        "name": "Tromious",
-        "amount": 19.2
-    },
-    {
-        "name": "wukice",
-        "amount": 12.5
-    },
-    {
-        "name": "mojang9089",
-        "amount": 10.1
-    },
-    {
-        "name": "SurestCrowd7825",
-        "amount": 10
-    },
-    {
-        "name": "MTjiazhutao",
-        "amount": 10
-    },
-    {
-        "name": "理之音",
-        "amount": 10
-    },
-    {
-        "name": "xiaoxingxing928",
-        "amount": 10
-    },
-    {
-        "name": "某表扬",
-        "amount": 8.8
-    },
-    {
-        "name": "mutewater",
-        "amount": 6.6
-    },
-    {
-        "name": "枉返",
-        "amount": 6.6
-    },
-    {
-        "name": "一头二臂",
-        "amount": 6.6
-    },
-    {
-        "name": "Yayueming",
-        "amount": 6
-    },
-    {
-        "name": "bluebird1234560",
-        "amount": 5.21
-    },
-    {
-        "name": "某不愿透露ID的玩家②",
-        "amount": 5.2
-    },
-    {
-        "name": "某不愿透露ID的玩家③",
-        "amount": 5
-    },
-    {
-        "name": "Doudou3816855",
-        "amount": 5
-    },
-    {
-        "name": "Newxian Yuwan",
-        "amount": 5
-    },
-    {
-        "name": "小数点OVO",
-        "amount": 3
-    },
-    {
-        "name": "strive555",
-        "amount": 2.2
-    },
-    {
-        "name": "utxxdi",
-        "amount": 1
-    },
-    {
-        "name": "Dead inside_",
-        "amount": 0.81
-    }
+  {
+    "name": "小忧",
+    "amount": 666
+  },
+  {
+    "name": "꧁❦澪༒月❦꧂",
+    "amount": 432.5
+  },
+  {
+    "name": "Skydream",
+    "amount": 305.2
+  },
+  {
+    "name": "浊酒桂仙",
+    "amount": 160
+  },
+  {
+    "name": "HLYB2023",
+    "amount": 140
+  },
+  {
+    "name": "folent1764",
+    "amount": 137.8
+  },
+  {
+    "name": "pyeietywu",
+    "amount": 101
+  },
+  {
+    "name": "YILONG233",
+    "amount": 100
+  },
+  {
+    "name": "磕矮の小極",
+    "amount": 100
+  },
+  {
+    "name": "WinterCoffee176",
+    "amount": 83.4
+  },
+  {
+    "name": "NoNoiseClock",
+    "amount": 70
+  },
+  {
+    "name": "MClongqihua（龙琪华）",
+    "amount": 55
+  },
+  {
+    "name": "栖梦",
+    "amount": 54.3
+  },
+  {
+    "name": "CrystalEl",
+    "amount": 50
+  },
+  {
+    "name": "wudi11451",
+    "amount": 49
+  },
+  {
+    "name": "Anheijun666",
+    "amount": 37
+  },
+  {
+    "name": "YunXi3348",
+    "amount": 30.36
+  },
+  {
+    "name": "Tromious",
+    "amount": 39.2
+  },
+  {
+    "name": "橘子",
+    "amount": 26
+  },
+  {
+    "name": "迁某人 ",
+    "amount": 20
+  },
+  {
+    "name": "某不愿透露ID的玩家① ",
+    "amount": 20
+  },
+  {
+    "name": "雪舞清歌",
+    "amount": 15
+  },
+  {
+    "name": "wukice",
+    "amount": 12.5
+  },
+  {
+    "name": "mojang9089",
+    "amount": 10.1
+  },
+  {
+    "name": "SurestCrowd7825",
+    "amount": 10
+  },
+  {
+    "name": "MTjiazhutao",
+    "amount": 10
+  },
+  {
+    "name": "理之音",
+    "amount": 10
+  },
+  {
+    "name": "xiaoxingxing928",
+    "amount": 10
+  },
+  {
+    "name": "某表扬",
+    "amount": 8.8
+  },
+  {
+    "name": "mutewater",
+    "amount": 6.6
+  },
+  {
+    "name": "枉返",
+    "amount": 6.6
+  },
+  {
+    "name": "一头二臂",
+    "amount": 6.6
+  },
+  {
+    "name": "Yayueming",
+    "amount": 6
+  },
+  {
+    "name": "bluebird1234560",
+    "amount": 5.21
+  },
+  {
+    "name": "某不愿透露ID的玩家②",
+    "amount": 5.2
+  },
+  {
+    "name": "某不愿透露ID的玩家③",
+    "amount": 5
+  },
+  {
+    "name": "Doudou3816855",
+    "amount": 5
+  },
+  {
+    "name": "Newxian Yuwan",
+    "amount": 5
+  },
+  {
+    "name": "小数点OVO",
+    "amount": 3
+  },
+  {
+    "name": "strive555",
+    "amount": 2.2
+  },
+  {
+    "name": "utxxdi",
+    "amount": 1
+  },
+  {
+    "name": "Dead inside_",
+    "amount": 0.81
+  }
 ]
