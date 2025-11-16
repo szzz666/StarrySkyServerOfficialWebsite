@@ -125,7 +125,7 @@ $(document).ready(function () {
     //加入游戏
     $(".jiaruyouxi").click(function () {
         tipsmessage("正在添加服务器到你的游戏服务器列表内");
-        window.open("minecraft://?addExternalServer=§l§5星空服|mc.szzz666.top:20000");
+        window.open("minecraft://?addExternalServer=§l§5星空服|mc.szzz666.top:19132");
     });
     //关闭窗口
     $(".popup  svg, .masking").click(function () {
@@ -183,4 +183,5 @@ $(document).ready(function () {
     $(".yule").click(function () {
         window.open("http://mc.szzz666.top:23400/");
     });
+
 });
