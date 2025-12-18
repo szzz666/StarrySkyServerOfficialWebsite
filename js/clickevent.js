@@ -10,7 +10,7 @@ $(document).ready(function () {
     }
 
     $("#showip svg").click(function () {
-        copy("IP：mc.szzz666.top 端口：19132");
+        copy("IP：mc.szzz666.top 端口：44966");
     });
 
     function roud() {
@@ -125,7 +125,7 @@ $(document).ready(function () {
     //加入游戏
     $(".jiaruyouxi").click(function () {
         tipsmessage("正在添加服务器到你的游戏服务器列表内");
-        window.open("minecraft://?addExternalServer=§l§5星空服|mc.szzz666.top:19132");
+        window.open("minecraft://?addExternalServer=StarrySky|mc.szzz666.top:44966");
     });
     //关闭窗口
     $(".popup  svg, .masking").click(function () {
