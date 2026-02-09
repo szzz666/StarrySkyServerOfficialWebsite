@@ -10,7 +10,7 @@ $(document).ready(function () {
     }
 
     $("#showip svg").click(function () {
-        copy("IP：mc.szzz666.top 端口：44966");
+        copy("IP：mc.szzz666.top 端口：19132");
     });
 
     function roud() {
